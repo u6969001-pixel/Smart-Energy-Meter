@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Smart Energy Meter</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+
+    background:
+        linear-gradient(
+            145deg,
+            #071b3d,
+            #0d47a1,
+            #1976d2,
+            #eaf4ff
+        );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 430px;
+
+    background: rgba(255,255,255,0.97);
+
+    border-radius: 28px;
+
+    padding: 32px 24px;
+
+    text-align: center;
+
+    box-shadow:
+        0 20px 55px rgba(0,0,0,0.28);
+}
+
+/* ==============================
+   APP ICON
+   ============================== */
+
+.logo {
+    width: 125px;
+    height: 125px;
+
+    margin: 0 auto 22px;
+
+    border-radius: 24px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.25);
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+/* ==============================
+   TITLE
+   ============================== */
+
+h1 {
+    margin: 0;
+
+    color: #1565c0;
+
+    font-size: 28px;
+
+    font-weight: 700;
+}
+
+.subtitle {
+    margin-top: 9px;
+
+    color: #607d8b;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+}
+
+.version {
+    margin-top: 18px;
+
+    color: #777;
+
+    font-size: 14px;
+}
+
+/* ==============================
+   DOWNLOAD BUTTON
+   ============================== */
+
+.download {
+    display: block;
+
+    margin-top: 28px;
+
+    padding: 17px 15px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1565c0,
+            #2196f3
+        );
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 14px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    box-shadow:
+        0 8px 20px rgba(21,101,192,0.35);
+
+    transition: 0.2s;
+}
+
+.download:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 12px 25px rgba(21,101,192,0.45);
+}
+
+/* ==============================
+   INFORMATION
+   ============================== */
+
+.info {
+    margin-top: 20px;
+
+    color: #777;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+/* ==============================
+   FOOTER
+   ============================== */
+
+.footer {
+    margin-top: 25px;
+
+    color: #999;
+
+    font-size: 12px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- =================================
+         SMART ENERGY METER APP ICON
+         ================================= -->
+
+    <div class="logo">
+
+        <img
+            src="smart_energy_icon.png"
+            alt="Smart Energy Meter"
+        >
+
+    </div>
+
+
+    <!-- =================================
+         APP NAME
+         ================================= -->
+
+    <h1>
+        Smart Energy Meter
+    </h1>
+
+
+    <div class="subtitle">
+        Professional IoT Energy Management
+    </div>
+
+
+    <div class="version">
+        Android Application • Version 1.0
+    </div>
+
+
+    <!-- =================================
+         DOWNLOAD BUTTON
+         ================================= -->
+
+    <a
+        class="download"
+        href="SmartEnergyMeter.apk"
+        download
+    >
+        DOWNLOAD & INSTALL APP
+    </a>
+
+
+    <!-- =================================
+         INFORMATION
+         ================================= -->
+
+    <div class="info">
+
+        Download the official
+        Smart Energy Meter Android application.
+
+        <br>
+
+        After downloading,
+        open the APK file to install the application.
+
+    </div>
+
+
+    <!-- =================================
+         FOOTER
+         ================================= -->
+
+    <div class="footer">
+
+        © 2026 Smart Energy Meter
+
+    </div>
+
+</div>
+
+</body>
+</html>
